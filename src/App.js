@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import '@justeat/pie-design-tokens/dist/jet.css';
 import '@justeat/pie-design-tokens/dist/jet-hsl-colors.css';
@@ -12,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <PieButton>Hello, Clarice</PieButton> */}
+        <PieButton>Hello, Clarice</PieButton>
         <PieModal
           isOpen
           isDismissible
