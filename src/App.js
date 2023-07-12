@@ -1,22 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import '@justeat/pie-design-tokens/dist/jet.css';
+import '@justeat/pie-design-tokens/dist/jet-hsl-colors.css';
+import { PieButton } from '@justeattakeaway/pie-button/dist/react';
+import { PieModal } from '@justeattakeaway/pie-modal/dist/react';
 
 function App() {
+  const handleModalClose = () => {
+    console.log('Modal closed');
+  };
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <PieButton>Hello, Clarice</PieButton> */}
+        <PieModal
+          isOpen
+          isDismissible
+          heading="Lit Modal"
+          headingLevel="h3"
+          size="large"
+          isFullWidthBelowMid
+          onpiemodalclose={handleModalClose}>
+            Hello there
+        </PieModal>
       </header>
     </div>
   );
