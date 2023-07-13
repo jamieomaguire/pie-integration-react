@@ -6,7 +6,7 @@
     "@justeat/pie-design-tokens": "^5.4.0",
     "@justeattakeaway/pie-button": "^0.18.0",
     "@justeattakeaway/pie-icon-button": "^0.8.0",
-    "@justeattakeaway/pie-modal": "file:.yalc/@justeattakeaway/pie-modal",
+    "@justeattakeaway/pie-modal": "^0.11.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

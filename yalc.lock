@@ -1,9 +1,0 @@
-{
-  "version": "v1",
-  "packages": {
-    "@justeattakeaway/pie-modal": {
-      "signature": "c658cb328c8599abdf5af438149b208c",
-      "file": true
-    }
-  }
-}

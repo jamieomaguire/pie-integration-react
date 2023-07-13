@@ -36,7 +36,7 @@ function App() {
           headingLevel="h2"
           size="medium"
           isFullWidthBelowMid
-          onpiemodalclose={handleModalClose}>
+          onPieModalClose={handleModalClose}>
             <div className="modal-inner">
               <h3>Chicken Strips</h3>
               <p>£4.50</p>
